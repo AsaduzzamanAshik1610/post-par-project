@@ -86,7 +86,8 @@ const Post = () => {
                 <input type="text" placeholder="Fabric type" className="input
            border-b  w-full max-w-xs" />
             </div>
-            <button className="btn btn-primary flex justify-items-start mt-5 px-5">save</button>
+            {/* <button className="btn btn-primary flex justify-items-start mt-5 px-5">save</button> */}
+            <button className='bg-sky-500 flex justify-items-start mt-5 px-10 py-1 text-white rounded'>save</button>
         </div>
 
     );
